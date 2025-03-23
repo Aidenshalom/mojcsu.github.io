@@ -1,0 +1,100 @@
+
+/* Gallery */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-holder {
+  flex-grow: 1;
+  margin: 0.2rem;
+  overflow: hidden;
+}
+
+.img-holder img {
+  display: block;
+  min-width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  transition-duration: 300ms;
+}
+
+.img-holder img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Video */
+*{
+  margin: 0;
+  padding:0;
+}
+.cf:before,.cf:after{
+  content: '';  
+  display: table;
+}
+.cf:after{
+  clear:both;    
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  color:#444;
+  /* background-color: #f1f1f1; */
+  padding: 10px;
+  font-size: 14px;
+}
+.container{
+  position: relative;
+  margin: 50px auto;
+  max-width: 80%;
+  /* background-color: #f1f1f1; */
+  padding: 10px;
+  /* border:1px solid #c5c5c5; */
+}
+
+.gallery{
+  width: 100%;
+  overflow: hidden;
+}
+
+.image{
+  /* float:left not working in mozilla*/
+  display: inline-block;
+  padding: 2%;
+  background-color: #fff;
+  margin: 1%;
+  width: 40%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  text-align: center;  
+  border:1px solid #c3c3c3;
+  cursor: pointer;
+}
+
+.image figure{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.image figure video{
+  width: 100%;
+}
+
+figcaption{
+  background-color: #a8753c;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: #363435;
+  max-width:100%;
+  font-weight: bold;
+}
+
+figcaption:hover{
+  color: #fff;
+}
