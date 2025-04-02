@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -34,105 +35,106 @@
 </head>
 
 <div>
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-body py-2 pe-3 border-end" href="faqs.html"><small>FAQs</small></a>
-                </div>
+<!-- Topbar Start -->
+<div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
+    <div class="row gx-0">
+        <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+                <a class="text-body py-2 pe-3 border-end" href="faqs.html"><small>FAQs</small></a>
             </div>
-            <div class="col-md-6 text-center text-lg-end">
-                <div class="position-relative d-inline-flex align-items-center text-white top-shape px-5 bg-logo2">
-                    <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>mojcsu@lagosstate.gov.ng</p>
-                    </div>
-                    <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+234 812 919 9164</p>
-                    </div>
+        </div>
+        <div class="col-md-6 text-center text-lg-end">
+            <div class="position-relative d-inline-flex align-items-center text-white top-shape px-5 bg-logo2">
+                <div class="me-3 pe-3 border-end py-2">
+                    <p class="m-0"><i class="fa fa-envelope-open me-2"></i>mojcsu@lagosstate.gov.ng</p>
+                </div>
+                <div class="py-2">
+                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+234 812 919 9164</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
 
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <!-- <a href="index.html" class="navbar-brand p-0"> -->
-            <img src="asset/laglogo.jpg" alt="" width="10%">
-            <img src="asset/moj-logo.jpg" alt="" width="10%">
-            <!-- <h1 class="m-0 text-uppercase logo"><i class="far fa-smile logo me-2"></i>consult</h1> -->
-        <!-- </a> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0 me-n3">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">What We Do</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <div class="dropdown">
-                            <a class="dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Media
-                            </a>
-
-                            <ul class="dropdown-menu w-100">
-                                <li><a class="dropdown-item" href="gallery.html">Picture Gallery</a></li>
-                                <li><a class="dropdown-item" href="video.html">Video</a></li>
-                                <li><a class="dropdown-item" href="graphics.html">Infographics</a></li>
-                            </ul>
-                        </div>
-                        <a href="News.html" class="dropdown-item">News</a>
-                        <a href="Offices.html" class="dropdown-item">Our Offices</a>
-                        <a href="laws.html" class="dropdown-item">The Laws</a>
-                        <a href="Events.html" class="dropdown-item">Events</a>
-                    </div>
+        <img src="asset/laglogo.jpg" alt="" width="10%">
+        <img src="asset/moj-logo.jpg" alt="" width="10%">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 me-n3">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Services</a>
+                <div class="dropdown-menu m-0">
+                    <a href="service.html" class="dropdown-item">What we do</a>
+                    <a href="rules.html" class="dropdown-item">Rules of court</a>
+                    <a href="cso.html" class="dropdown-item">CSO</a>
                 </div>
-                <a href="support.html" class="nav-item nav-link">donate/support</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <button type="button" class="btn btn-primary rounded-5 nav-item nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
             </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Pages</a>
+                <div class="dropdown-menu m-0">
+                    <div class="dropend">
+                        <a class="dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Media
+                        </a>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Employee Login Page</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="gallery.html">Picture Gallery</a></li>
+                            <li><a class="dropdown-item" href="video.html">Video</a></li>
+                            <li><a class="dropdown-item" href="graphics.html">Infographics</a></li>
+                        </ul>
+                    </div>
+                    <a href="News.html" class="dropdown-item">News</a>
+                    <a href="Offices.html" class="dropdown-item">Our Offices</a>
+                    <a href="asset/laws.pdf" target="_blank" class="dropdown-item">The Laws</a>
+                    <a href="Events.html" class="dropdown-item">Events</a>
                 </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Employee Id</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            </div>
+            <a href="support.html" class="nav-item nav-link">donate/support</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <button type="button" class="btn btn-primary rounded-5 nav-item nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login Page</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Login Id</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
-    <!-- Modal End -->
+</div>
+<!-- Modal End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid bg-dark p-5">
@@ -155,25 +157,43 @@
             <hr class="w-25 mx-auto bg-primary">
         </div>
         <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435;">
                         <i class="fa fa-user-tie fa-2x"></i>
+                    </div>
+                    <h3 class="mb-3">Facilitate Employment Opportunities</h3>
+                    <p class="mb-0">Collaborate with local businesses and vocational training centers to secure job placements and apprenticeships for rehabilitated offenders. </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
+                        <i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="mb-3">Partner with Social Services and N.G.Os</h3>
+                    <p class="mb-0">Work with social welfare agencies to provide housing, healthcare, and other essential services that support successful reintegration.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435;">
+                        <i class="fa fa-gavel fa-2x" aria-hidden="true"></i>
                     </div>
                     <h3 class="mb-3">Court-Mandated Service Support</h3>
                     <p class="mb-0">We assist with court-mandated community service, offering easy registration, assignment guidance, and support to ensure you complete your obligations smoothly. </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
-                        <i class="fa fa-chart-pie fa-2x"></i>
+                        <i class="fa fa-american-sign-language-interpreting fa-2x" aria-hidden="true"></i>
                     </div>
-                    <h3 class="mb-3">Social Support and Welfare Services</h3>
-                    <p class="mb-0">Provides relief services during emergencies and disasters.</p>
+                    <h3 class="mb-3">Overseeing Non-Custodial Sentences</h3>
+                    <p class="mb-0">The Community Service Unit in Lagos manages non-custodial sentences, ensuring minor offenders contribute to society through activities like street cleaning and community farming. This promotes rehabilitation, reduces prison congestion, and encourages responsibility.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
                         <i class="fa fa-chart-line fa-2x"></i>
@@ -182,31 +202,49 @@
                     <p class="mb-0">Leads neighborhood improvement projects such as environmental clean-ups, tree planting, and infrastructure repairs.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
                         <i class="fa fa-chart-area fa-2x"></i>
                     </div>
                     <h3 class="mb-3">Education and Awareness Campaigns</h3>
-                    <p class="mb-0">Offers training on health, sanitation, personal development, and civic responsibility</p>
+                    <p class="mb-0">Offers training on health, sanitation, personal development, and civic responsibility.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
                         <i class="fa fa-balance-scale fa-2x"></i>
                     </div>
-                    <h3 class="mb-3">Health and Wellness Initiatives</h3>
-                    <p class="mb-0">Hosts free medical check-ups, blood donation drives, and mental health awareness programs.</p>
+                    <h3 class="mb-3">Assigning Meaningful Tasks </h3>
+                    <p class="mb-0"> Offenders under the unit may clear roadside verges, assist in fire or police services, or support children’s centers. These tasks are designed to teach accountability and provide practical ways to give back to the community..</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
                         <i class="fa fa-house-damage fa-2x"></i>
                     </div>
-                    <h3 class="mb-3">Advocacy and Human Rights Support</h3>
-                    <p class="mb-0">Works with government agencies and NGOs to push for policies that benefit marginalized communities.</p>
+                    <h3 class="mb-3">Providing Supervision Across Lagos</h3>
+                    <p class="mb-0">With 18 locations throughout Lagos, the unit closely supervises offenders to ensure community service is completed effectively. This oversight helps offenders learn from their experiences while fulfilling their obligations.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
+                        <i class="fa fa-tree fa-2x"></i>
+                    </div>
+                    <h3 class="mb-3">Enhancing Community Well-Being</h3>
+                    <p class="mb-0">By involving offenders in tasks like sanitation and aiding nursing homes, the unit improves public spaces and fosters a stronger community. These efforts benefit residents and promote a sense of shared responsibility.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #363435">
+                        <i class="fa fa-certificate fa-2x"></i>
+                    </div>
+                    <h3 class="mb-3">Supporting Rehabilitation</h3>
+                    <p class="mb-0">The unit offers offenders a chance to reflect and contribute to society through service. This rehabilitative approach aids reintegration, lowers reoffending rates, and helps individuals become productive community members.</p>
                 </div>
             </div>
         </div>
@@ -297,6 +335,7 @@
                 <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Block 2, Lagos State Ministry of Justice, Alusa, Ikeja</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>mojcommunityservice<br/>@lagosstate.gov.ng</p>
                 <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+234 812 919 9164</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+234 703 626 3466</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
