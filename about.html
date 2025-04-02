@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -30,7 +31,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">  
 </head>
 
 <div>
@@ -71,11 +72,18 @@
             <div class="navbar-nav ms-auto py-0 me-n3">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">What We Do</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Services</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="service.html" class="dropdown-item">What we do</a>
+                        <a href="rules.html" class="dropdown-item">Rules of court</a>
+                        <a href="cso.html" class="dropdown-item">CSO</a>
+                    </div>
+                </div>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Pages</a>
                     <div class="dropdown-menu m-0">
-                        <div class="dropdown">
+                        <div class="dropend">
                             <a class="dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Media
                             </a>
@@ -88,7 +96,7 @@
                         </div>
                         <a href="News.html" class="dropdown-item">News</a>
                         <a href="Offices.html" class="dropdown-item">Our Offices</a>
-                        <a href="laws.html" class="dropdown-item">The Laws</a>
+                        <a href="asset/laws.pdf" class="dropdown-item">The Laws</a>
                         <a href="Events.html" class="dropdown-item">Events</a>
                     </div>
                 </div>
@@ -105,13 +113,13 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Employee Login Page</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login Page</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Employee Id</label>
+                        <label for="exampleInputEmail1" class="form-label">Login Id</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text"></div>
                         </div>
@@ -125,9 +133,6 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -170,7 +175,7 @@
             <div class="col-lg-6 py-6 px-5">
                 <div class="p-5">
                     <div class="card">
-                        <img src="asset/about_image.jpg" alt="">
+                        <img src="asset/photo_2025-02-20_14-58-57.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -178,18 +183,23 @@
     </div>
     <div class="container-fluid bg-secondary p-0">
         <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
-                <div class="p-5 mt-5">
-                    <div class="card">
-                        <img src="asset/moj3.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 py-6 px-5">
+            <div class="col-lg-6 pt-6 px-5">
                 <h1 class="display-5 mb-4">Background</h1>
                 <p class="mb-4">
                     The world's population of people in incarceration has progressivély increased over the past four decades to reach more than 10.74 milion people. The report in the latest edition of the World Prison Populaticn List , an estimated 11.5 milion people are held in custodial facilities throughout the world. The lkoyi and Kirikiri custodial centres located in Lagos, Nigeria were built between 1955 and 1963 , to hold a maximum capacity of 3 ,787 inmates. By January 2023, the facilities accommodated 6,600 inmates with the female centre holding 306 inmates, a number which is more than 150% above its maximum capacity. Over 70% of the inmates in these centres were remanded for minor offenses such as street trading, loitering, prostitution, and environmental offenses. A summary of the total Iinmate population of custodial centres in Nigeria comprising of Convict and Awaiting Tial Persons (ATPs) as at 10th February, 2025 is 80,088. The number of ATPs from the total inmate population is 53,411. This makes the percentage of ATPs 67%.
                 </p>
+
+            </div>
+            <div class="col-lg-6 pt-6 px-5">
+                <div class="p-5">
+                    <div class="card">
+                        <img src="asset/abt.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-12 px-5">
                 <p class="mb-4">
                     Meanwhile, the efficacy of incarceration is increasingly being questioned. This is more so because, although one of the fundamental purposes of incarceration is to prevent recidivism by serving as a deterrence to criminals, available evidence suggests that custodial sentences are less successful in preventing recidivism than non-custodial sentences. Community service has been increasingly recognized as a viable tool for restorative justice. lts emergence as a legal sanction in the mid-20th century was influenced by growing dissatisfaction with traditional punitive measures like imprisonment. Overcrowded prisons, high recidivism rates, and the social stigma associated with incarceration motivated courts to consider alternatives that were both rehabilitative and cost-effective.
                 </p>
@@ -203,7 +213,6 @@
                     with development in the administration of criminal justice.
                 </p>
             </div>
-           
         </div>
     </div>  
     <!-- About End -->
@@ -285,6 +294,7 @@
                 <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Block 2, Lagos State Ministry of Justice, Alusa, Ikeja</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>mojcommunityservice<br/>@lagosstate.gov.ng</p>
                 <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+234 812 919 9164</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+234 703 626 3466</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
